@@ -1046,7 +1046,6 @@ body {
 
     #intro p {
       grid-column: 1 / span 2;
-      grid-row: 2;
       font-size: 2rem;
     }
 
