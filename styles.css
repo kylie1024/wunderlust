@@ -88,7 +88,11 @@ h4, p, q, small, nav, button, form {
 
 /* ------------------- MOBILE FIRST STYLES ------------------- */
 
-
+body {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
 
 
 /* ------------------- SKIP LINK ------------------- */
@@ -950,7 +954,7 @@ h4, p, q, small, nav, button, form {
   }
   /* ------------------ DESKTOP VIEW ------------------ */
 
-  @media only screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     header {
         display: grid;
         grid-template-columns: auto 1fr auto;
